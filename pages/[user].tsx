@@ -42,7 +42,8 @@ export default function User(props: inferSSRProps<typeof getServerSideProps>) {
                 className="w-24 h-24 mx-auto mb-4 rounded-full"
                 alt={nameOrUsername}
               />
-              <h1 className="mb-1 text-3xl font-bold font-cal text-neutral-900 dark:text-white">
+              <p>Schedule time with</p>
+              <h1 className="mb-1 text-3xl font-bold text-neutral-900 dark:text-white">
                 {nameOrUsername}
               </h1>
               <p className="text-neutral-500 dark:text-white">{user.bio}</p>
