@@ -34,9 +34,9 @@ export default function User(props: inferSSRProps<typeof getServerSideProps>) {
         avatar={user.avatar || undefined}
       />
       {isReady && (
-        <div className="h-screen bg-neutral-50 dark:bg-black">
+        <div className="h-screen bg-neutral-50 dark:bg-black" style="border-top: solid 1em #EF243C;">
           <main className="max-w-3xl px-4 py-24 mx-auto">
-            <div className="mb-8 text-center">
+            <div className="mb-8">
               <Avatar
                 imageSrc={user.avatar}
                 className="w-24 h-24 mx-auto mb-4 rounded-full"
@@ -52,7 +52,7 @@ export default function User(props: inferSSRProps<typeof getServerSideProps>) {
               {eventTypes.map((type) => (
                 <div
                   key={type.id}
-                  className="relative bg-white border rounded-sm group dark:bg-neutral-900 dark:border-0 dark:hover:border-neutral-600 hover:bg-gray-50 border-neutral-200 hover:border-brand">
+                  className="relative bg-white border rounded-md group dark:bg-neutral-900 dark:border-0 dark:hover:border-neutral-600 hover:bg-gray-50 border-neutral-200 hover:border-brand">
                   <ArrowRightIcon className="absolute w-4 h-4 text-black transition-opacity opacity-0 right-3 top-3 dark:text-white group-hover:opacity-100" />
                   <Link
                     href={{
