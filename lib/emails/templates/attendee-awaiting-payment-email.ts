@@ -89,7 +89,7 @@ ${this.getAdditionalNotes()}
                       <tbody>
                         <tr>
                           <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                            <div style="font-family:Roboto, Helvetica, sans-serif;font-size:16px;font-weight:500;line-height:1;text-align:left;color:#3E3E3E;">
+                            <div style="font-family: "Rubik", "Helvetica Neue", "Helvetica", "Roboto", "sans-serif";font-size:16px;font-weight:500;line-height:1;text-align:left;color:#3E3E3E;">
                               ${this.getWhat()}
                               ${this.getWhen()}
                               ${this.getWho()}
@@ -127,7 +127,7 @@ ${this.getAdditionalNotes()}
                         </tr>
                         <tr>
                           <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                            <div style="font-family:Roboto, Helvetica, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;"></div>
+                            <div style="font-family: "Rubik", "Helvetica Neue", "Helvetica", "Roboto", "sans-serif";font-size:13px;line-height:1;text-align:left;color:#000000;"></div>
                           </td>
                         </tr>
                       </tbody>
@@ -154,7 +154,7 @@ ${this.getAdditionalNotes()}
       return `
       <tr>
         <td align="center" bgcolor="#292929" role="presentation" style="border:none;border-radius:3px;cursor:auto;mso-padding-alt:10px 25px;background:#292929;" valign="middle">
-          <p style="display:inline-block;background:#292929;color:#ffffff;font-family:Roboto, Helvetica, sans-serif;font-size:16px;font-weight:500;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:3px;">
+          <p style="display:inline-block;background:#292929;color:#ffffff;font-family: "Rubik", "Helvetica Neue", "Helvetica", "Roboto", "sans-serif";font-size:16px;font-weight:500;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:3px;">
             <a style="color: #FFFFFF; text-decoration: none;" href="${
               this.calEvent.paymentInfo.link
             }" target="_blank">${manageText} <img src="${linkIcon()}" width="12px"></img></a>

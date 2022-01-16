@@ -91,14 +91,14 @@ ${this.getAdditionalNotes()}
                       <tbody>
                         <tr>
                           <td align="center" style="font-size:0px;padding:10px 25px;padding-top:24px;padding-bottom:0px;word-break:break-word;">
-                            <div style="font-family:Roboto, Helvetica, sans-serif;font-size:24px;font-weight:700;line-height:24px;text-align:center;color:#292929;">${this.calEvent.language(
+                            <div style="font-family: "Rubik", "Helvetica Neue", "Helvetica", "Roboto", "sans-serif";font-size:24px;font-weight:700;line-height:24px;text-align:center;color:#292929;">${this.calEvent.language(
                               "a_refund_failed"
                             )}</div>
                           </td>
                         </tr>
                         <tr>
                           <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                            <div style="font-family:Roboto, Helvetica, sans-serif;font-size:16px;font-weight:400;line-height:24px;text-align:center;color:#494949;">${this.calEvent.language(
+                            <div style="font-family: "Rubik", "Helvetica Neue", "Helvetica", "Roboto", "sans-serif";font-size:16px;font-weight:400;line-height:24px;text-align:center;color:#494949;">${this.calEvent.language(
                               "check_with_provider_and_user",
                               { user: this.calEvent.attendees[0].name }
                             )}</div>
@@ -127,7 +127,7 @@ ${this.getAdditionalNotes()}
                       <tbody>
                         <tr>
                           <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                            <div style="font-family:Roboto, Helvetica, sans-serif;font-size:16px;font-weight:500;line-height:1;text-align:left;color:#3E3E3E;">
+                            <div style="font-family: "Rubik", "Helvetica Neue", "Helvetica", "Roboto", "sans-serif";font-size:16px;font-weight:500;line-height:1;text-align:left;color:#3E3E3E;">
                               ${this.getWhat()}
                               ${this.getWhen()}
                               ${this.getWho()}
@@ -174,7 +174,7 @@ ${this.getAdditionalNotes()}
         refundInformation = `
         <tr>
           <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-            <div style="font-family:Roboto, Helvetica, sans-serif;font-size:16px;font-weight:400;line-height:24px;text-align:center;color:#494949;">${this.calEvent.language(
+            <div style="font-family: "Rubik", "Helvetica Neue", "Helvetica", "Roboto", "sans-serif";font-size:16px;font-weight:400;line-height:24px;text-align:center;color:#494949;">${this.calEvent.language(
               "error_message",
               { errorMessage: paymentInfo.reason }
             )}</div>
@@ -187,7 +187,7 @@ ${this.getAdditionalNotes()}
         refundInformation += `
         <tr>
           <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-            <div style="font-family:Roboto, Helvetica, sans-serif;font-size:16px;font-weight:400;line-height:24px;text-align:center;color:#494949;">Payment ${paymentInfo.id}</div>
+            <div style="font-family: "Rubik", "Helvetica Neue", "Helvetica", "Roboto", "sans-serif";font-size:16px;font-weight:400;line-height:24px;text-align:center;color:#494949;">Payment ${paymentInfo.id}</div>
           </td>
         </tr>
         `;

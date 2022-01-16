@@ -105,7 +105,7 @@ ${getCancelLink(this.calEvent)}
                       <tbody>
                         <tr>
                           <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                            <div style="font-family:Roboto, Helvetica, sans-serif;font-size:16px;font-weight:500;line-height:1;text-align:left;color:#3E3E3E;">
+                            <div style="font-family: "Rubik", "Helvetica Neue", "Helvetica", "Roboto", "sans-serif";font-size:16px;font-weight:500;line-height:1;text-align:left;color:#3E3E3E;">
                               ${this.getWhat()}
                               ${this.getWhen()}
                               ${this.getWho()}
@@ -136,7 +136,7 @@ ${getCancelLink(this.calEvent)}
                       <tbody>
                         <tr>
                           <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                            <div style="font-family:Roboto, Helvetica, sans-serif;font-size:16px;font-weight:500;line-height:0px;text-align:left;color:#3E3E3E;">
+                            <div style="font-family: "Rubik", "Helvetica Neue", "Helvetica", "Roboto", "sans-serif";font-size:16px;font-weight:500;line-height:0px;text-align:left;color:#3E3E3E;">
                               ${this.getManageLink()}
                             </div>
                           </td>
